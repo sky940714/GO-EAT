@@ -5,8 +5,45 @@ export const STORES = [
 ];
 
 export const KOLS = [
-  { id: 1, name: "美食水水 Angel", followers: "12萬", pick: "饒河街最強臭豆腐", img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400" },
-  { id: 2, name: "大胃王傑克", followers: "8萬", pick: "這家肉圓我給100分", img: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=400" },
+  {
+    id: 1,
+    name: "美食水水 Angel",
+    bio: "台北夜市女王 · 口袋名單最多人追蹤",
+    followers: "12萬",
+    postCount: 320,
+    avgRate: "4.9",
+    category: "夜市",
+    verified: true,
+    pick: "饒河街最強臭豆腐，外酥內嫩沒有之一",
+    img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400",
+    recommendedStores: ["饒河臭豆腐", "花枝羹老店", "胡椒餅排隊王"],
+  },
+  {
+    id: 2,
+    name: "大胃王傑克",
+    bio: "日式料理控 · 每週至少吃三家新店",
+    followers: "8萬",
+    postCount: 210,
+    avgRate: "4.7",
+    category: "日式",
+    verified: true,
+    pick: "這家肉圓我給100分，皮Q內嫩完全不油膩",
+    img: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=400",
+    recommendedStores: ["極致厚切豬排", "海膽丼飯專門", "炸物天堂"],
+  },
+  {
+    id: 3,
+    name: "早午餐控 Mia",
+    bio: "Brunch 成癮者 · 找遍台北最美早午餐",
+    followers: "5.6萬",
+    postCount: 180,
+    avgRate: "4.8",
+    category: "早午餐",
+    verified: false,
+    pick: "這間隱藏在民生社區的早午餐，週末一定大排長龍",
+    img: "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=400",
+    recommendedStores: ["晨曦手作蛋餅", "法式吐司工坊", "北歐風咖啡廳"],
+  },
 ];
 
 export const POSTS = [

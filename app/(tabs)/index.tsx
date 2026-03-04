@@ -55,7 +55,7 @@ export default function HomePage() {
         <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 120 }}>
           <View style={styles.aiSection}>
             <View style={styles.aiCard}>
-              <Text style={styles.aiTitle}>不知道吃啥？{"\n"}讓 AI 幫你選！</Text>
+              <Text style={styles.aiTitle}>不知道吃啥？{"\n"}讓 GO EAT 幫你選！</Text>
               <Text style={styles.aiSub}>基於 23,402 位在地老饕數據</Text>
               <TouchableOpacity 
                 style={styles.aiStartBtn}
