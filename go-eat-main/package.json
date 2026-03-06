@@ -1,0 +1,10 @@
+{
+  "name": "go-eat-monorepo",
+  "private": true,
+  "workspaces": [
+    "go-eat-app",
+    "go-eat-admin",
+    "go-eat-root",
+    "go-eat-backend"
+  ]
+}
